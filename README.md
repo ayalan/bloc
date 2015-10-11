@@ -68,11 +68,12 @@ Upload a contract and scaffold (`-s`) your dApp
 bloc upload <ContractName> -s
 ```
 Using the scaffold flag here will generate a javascript file which can call the methods defined in your solidity contract
-
-## Login, Register, and Developer Login
-When developing using you can use the developer login to test you app. When you want to deploy your application to the live net users will need to register a wallet with your application and login.  
+  
 
 ![bloc upload](https://raw.githubusercontent.com/blockapps/bloc/readme-images/readme_img/bloc_upload.png)
+
+## Login, Register, and Developer Login
+When developing using you can use the developer login to test you app. When you want to deploy your application to the live net users will need to register a wallet with your application and login.
 
 ## Commands
 
