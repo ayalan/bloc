@@ -67,6 +67,10 @@ Upload a contract and scaffold (`-s`) your dApp
 ```
 bloc upload <ContractName> -s
 ```
+Using the scaffold flag here will generate a javascript file which can call the methods defined in your solidity contract
+
+## Login, Register, and Developer Login
+When developing using you can use the developer login to test you app. When you want to deploy your application to the live net users will need to register a wallet with your application and login.  
 
 ![bloc upload](https://raw.githubusercontent.com/blockapps/bloc/readme-images/readme_img/bloc_upload.png)
 
@@ -89,7 +93,7 @@ Options:
                     uploading
 ```
 
-### Structure of your dApps
+### Structure of your block
 ```
 /dApp
   config.yaml
@@ -110,6 +114,8 @@ Options:
   /meta
   /routes
 ```
+
+ 
 
 ## Additional Resources
 bloc uses [blockapps-js](https://github.com/blockapps/blockapps-js), our simple library for interfacing with the blockchain.
